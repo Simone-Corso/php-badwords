@@ -3,8 +3,7 @@
 <?php
 
 function censuraParola($testo, $parolaDaCensurare) {
-    $testoCensurato = str_ireplace($parolaDaCensurare, '***', $testo) ;
-
+    $testoCensurato = str_ireplace($parolaDaCensurare, '***', $testo);
     return $testoCensurato;
 }
 

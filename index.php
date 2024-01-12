@@ -5,8 +5,10 @@
     <title>Badwords-php</title>
 </head>
 <body>
-<!--andrò a realizzare una variabile con un paragrafo di testo che desidero io.!-->
+
+
 <?php
+//andrò a realizzare una variabile con un paragrafo di testo che desidero io
 
 $testo = "Apple è la miglior azienda al mondo per la sua affidabilità nel mercato tecnologico.";
 
@@ -19,13 +21,23 @@ echo "La sua lunghezza è:" . strlen($testo);
 
 //Andrò a realizzare la parola censurata dal GET 
 
-$parolaDaCensurare = isset($_GET ['Apple']) ? $_GET['Apple'] : '';
+$parolaDaCensurare = isset($_GET ['parola']) ? $_GET['parola'] : 'Apple';
 
-echo "Parola da censurare è: $parolaDaCensurare" ;
+
+
+echo "Parola da censurare è: $parolaDaCensurare<br>" ;
 
 //Richiamare la funzione che ho creato nel script.php 
 
-$testoCensurato = $parolaDaCensurare($testo, $parolaDaCensurare);
+$testoCensurato = Apple($testo, $parolaDaCensurare);
+
+//Come dice nell'esercizio di stampare nuovamente con la parola censurata
+
+echo "Paragrafo censurato è:" ;
+
+echo $testpCensurato ;
+
+echo "La lunghezza è : " . strlen($testoCensurato) ;
 
 
 ?>
