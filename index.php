@@ -20,6 +20,10 @@ echo "La sua lunghezza è:" . strlen($testo);
 //Andrò a realizzare la parola censurata dal GET 
 
 $parolaDaCensurare = isset($_GET ['Apple']) ? $_GET['Apple'] : '';
+
+echo "Parola da censurare è: $parolaDaCensurare" ;
+
+
 ?>
     
 </body>
