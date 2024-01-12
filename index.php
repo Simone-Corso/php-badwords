@@ -15,6 +15,11 @@ $testo = "Apple è la miglior azienda al mondo per la sua affidabilità nel merc
 
 echo $testo . "<br>";
 echo "La sua lunghezza è:" . strlen($testo);
+
+
+//Andrò a realizzare la parola censurata dal GET 
+
+$parolaDaCensurare = isset($_GET ['Apple']) ? $_GET['Apple'] : '';
 ?>
     
 </body>
