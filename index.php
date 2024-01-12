@@ -5,6 +5,11 @@
     <title>Badwords-php</title>
 </head>
 <body>
+<!--andrò a realizzare una variabile con un paragrafo di testo che desidero io.!-->
+<?php
+
+$testo = "Apple è la miglior azienda al mondo per la sua affidabilità nel mercato tecnologico"
+?>
     
 </body>
 </html>
