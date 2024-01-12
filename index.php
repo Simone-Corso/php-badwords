@@ -8,7 +8,13 @@
 <!--andrò a realizzare una variabile con un paragrafo di testo che desidero io.!-->
 <?php
 
-$testo = "Apple è la miglior azienda al mondo per la sua affidabilità nel mercato tecnologico"
+$testo = "Apple è la miglior azienda al mondo per la sua affidabilità nel mercato tecnologico.";
+
+//stampare nello schermo il paragrafo e la sua lunghezza
+
+
+echo $testo ;
+echo "La sua lunghezza è:" . strlen($testo);
 ?>
     
 </body>
