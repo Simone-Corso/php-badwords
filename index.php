@@ -23,6 +23,10 @@ $parolaDaCensurare = isset($_GET ['Apple']) ? $_GET['Apple'] : '';
 
 echo "Parola da censurare è: $parolaDaCensurare" ;
 
+//Richiamare la funzione che ho creato nel script.php 
+
+$testoCensurato = $parolaDaCensurare($testo, $parolaDaCensurare);
+
 
 ?>
     
