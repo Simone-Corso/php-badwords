@@ -13,7 +13,7 @@ $testo = "Apple è la miglior azienda al mondo per la sua affidabilità nel merc
 //stampare nello schermo il paragrafo e la sua lunghezza
 
 
-echo $testo ;
+echo $testo . "<br>";
 echo "La sua lunghezza è:" . strlen($testo);
 ?>
     
